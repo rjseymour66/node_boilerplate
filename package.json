@@ -1,0 +1,21 @@
+{
+	"author": "Ryan Seymour",
+	"name": "fcc-learn-node-with-express",
+	"description": "This is my first npm project",
+	"keywords": ["first", "freecodecamp", "node", "npm"],
+	"license": "MIT",
+	"version": "1.0.0",
+	"dependencies": {
+		"express": "^4.14.0",
+		"body-parser": "^1.15.2",
+		"cookie-parser": "^1.4.3",
+		"fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git"
+	},
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": "4.4.5"
+	}
+}
